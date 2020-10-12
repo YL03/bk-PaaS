@@ -7,7 +7,7 @@
         <link href="{{STATIC_URL}}css/bk.{{CSS_SUFFIX}}" rel="stylesheet" type="text/css" />
         <link href="{{STATIC_URL}}assets/bk-icon-2.0/iconfont.css" rel="stylesheet" type="text/css" />
         <link href="{{STATIC_URL}}css/login.{{CSS_SUFFIX}}?v={{STATIC_VERSION}}" rel="stylesheet" type="text/css" />
-        <title>{% trans '登录|蓝鲸智云' %}</title>
+        <title>{% trans '北部湾综合科技服务云' %}</title>
     </head>
     <body>
         <div class="page-content">
@@ -43,27 +43,7 @@
                     </form>
                 </div>
             </div>
-            <footer class="footer">
-                <p class="logo-qt">
-                    <img class="img-logo" src="{{STATIC_URL}}img/logo/qtlogo.png"><span>{% trans '青藤云安全提供安全检测' %}</span>
-                </p>
-                <p>
-                    <a id="contact_us" class="link">{% trans 'QQ咨询' %}(800802001)</a>
-                    | <a href="http://bbs.bk.tencent.com/forum.php" target="_blank" hotrep="hp.footer.feedback" class="link">{% trans '蓝鲸论坛' %}</a>
-                    | <a href="http://bk.tencent.com/" target="_blank" hotrep="hp.footer.feedback" class="link">{% trans '蓝鲸官网' %}</a>
-                    | <a href="/" target="_blank" hotrep="hp.footer.feedback" class="link">{% trans '蓝鲸智云工作台' %}</a>
-                    |<a class="follow-us" href="###">{% trans '关注我们' %}
-                    <span class="qr-box">
-                        <span class="qr">
-                            <img src="{{STATIC_URL}}img/logo/qr.png">
-                            <span class="qr-caret"></span>
-                        </span>
-                    </span>
-                    </a>
-                </p>
-                <p>Copyright © 2012-{{NOW.year}} Tencent BlueKing. All Rights Reserved.</p>
-                <p>蓝鲸智云 版权所有</p>
-            </footer>
+      
         </div>
         <!-- 查看用户协议 -->
         {% include "login/agreement.part" %}
